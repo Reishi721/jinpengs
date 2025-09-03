@@ -45,14 +45,6 @@ export function HeroSection() {
           <source src="https://goldpanthers-1377014447.cos.ap-hongkong.myqcloud.com/IMG_5558.webm" type="video/webm" />
         </video>
 
-        {/* Fallback image if video fails to load */}
-        <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image_20250902121055_409_1.jpg-jZJJmm3a3lWm7Z7u8q0rjsHxawTbwJ.jpeg"
-          alt="金彭服饰现代化厂区"
-          fill
-          className="object-cover"
-          priority
-        />
 
         <div className="absolute inset-0 bg-black/15" />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent" />
