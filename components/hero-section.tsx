@@ -113,8 +113,8 @@ export function HeroSection() {
           >
             <Button
               asChild
-              size="lg"
-              className="text-lg px-8 py-6 h-auto hover:scale-105 transition-transform duration-200 bg-primary hover:bg-primary/90"
+              size="md"
+              className="text-lg px-6 py-4 h-auto hover:scale-105 transition-transform duration-200 bg-primary hover:bg-primary/90"
             >
               <Link href="/about">了解更多</Link>
             </Button>
